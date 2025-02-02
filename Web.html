@@ -10,6 +10,23 @@
         esto es una prueba tengo una problema y no se como moverme entre ramas y por error
         cree una en main y master xd
         michel
+
+        import tkinter as tk
+
+# Crear la ventana principal
+window = tk.Tk()
+window.title("Tkinter en WSL desde VS Code")
+
+# Añadir una etiqueta
+label = tk.Label(window, text="¡Hola desde WSL y VS Code!", font=("Arial", 16))
+label.pack(pady=20)
+
+# Añadir un botón
+button = tk.Button(window, text="Cerrar", command=window.quit)
+button.pack(pady=10)
+
+# Iniciar el bucle principal
+window.mainloop()
     </h2>
 </body>
 </html>

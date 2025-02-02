@@ -62,3 +62,4 @@ def fibonacci(number: int):
   return fibonacci(number - 1) + fibonacci(number - 2)
 
 print(fibonacci(6))
+
